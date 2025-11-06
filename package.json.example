@@ -1,0 +1,44 @@
+{
+  "name": "workspace-by-username",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Personal research workspace - Git-first documentation platform",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/check": "^0.5.0",
+    "@astrojs/react": "^3.0.0",
+    "@keystatic/astro": "^5.0.0",
+    "@keystatic/core": "^0.5.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "astro": "^4.5.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.3.0",
+    "yaml": "^2.3.4",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0"
+  },
+  "keywords": [
+    "workspace",
+    "research",
+    "documentation",
+    "git-first",
+    "keystatic"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/workspace-by-your-username.git"
+  },
+  "homepage": "https://your-workspace-url.vercel.app"
+}

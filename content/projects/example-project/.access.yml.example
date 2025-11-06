@@ -1,0 +1,39 @@
+# Example Access Configuration
+# Rename this file to .access.yml to enable safety gating for this project
+
+# Whether this content requires safety acknowledgment
+gated: false
+
+# If gated: true, specify the required safety protocol code
+# required_acknowledgment: "example_safety_v1.0"
+
+# Risk classification (optional)
+# risk_level: "low"  # Options: "low", "medium", "high"
+
+# Links to safety documentation (optional)
+# safety_docs:
+#   - url: "/docs/safety/example-safety"
+#     version: "1.0"
+#     updated: "2025-11-05"
+#     title: "Example Safety Protocol"
+
+# Future: Role-based access control
+# allowed_roles:
+#   - owner
+#   - collaborator
+
+# ---
+# Example for Gated Content:
+# ---
+# gated: true
+# required_acknowledgment: "plasma_safety_v1.3"
+# risk_level: "high"
+# safety_docs:
+#   - url: "/docs/safety/plasma-basics"
+#     version: "1.3"
+#     updated: "2025-10-01"
+#     title: "Plasma Safety Basics"
+#   - url: "/docs/safety/high-voltage"
+#     version: "2.0"
+#     updated: "2025-09-15"
+#     title: "High Voltage Safety"
