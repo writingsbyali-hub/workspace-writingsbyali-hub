@@ -1,0 +1,14 @@
+{
+  "version": "1.0.0",
+  "theme": {
+    "mode": "workspace-light",
+    "preferSystemTheme": false
+  },
+  "editor": {
+    "defaultViewMode": "split",
+    "autoSave": true,
+    "autoSaveDebounce": 2000
+  },
+  "navigation": {},
+  "accessibility": {}
+}
